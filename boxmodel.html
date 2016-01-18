@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <style>
+            #wrapper div {
+                margin:10px;
+                padding: 10px;
+            }
+            
+            #wrapper {
+                width: 300px;
+                background-color: #ccc;
+                padding: 5px;
+            }
+            
+            #wrapper .explenation {
+                margin: 0;
+                padding: 15px;
+                color: #333;
+            }
+            
+            #first {
+                background-color: chocolate;
+                padding: 20px;
+            }
+            
+            #second {
+                background-color: darkgoldenrod;
+                padding: 20px;
+                width: 100%;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="example">
+            <div id="wrapper">
+                <div class="explenation">Container div with fixed with and 2 child divs that "fill" its width</div>
+                <div id="first">No width set. Uses up "what's left" of space and</div>
+
+                <div id="second">Width set to 100%. Uses 100% for width, then adds margin / padding</div>
+            </div>
+        </div>
+    </body>
+</html>
