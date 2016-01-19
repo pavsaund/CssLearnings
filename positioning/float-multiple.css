@@ -28,3 +28,7 @@ em {
     background: #5b8054;
     float: left;
 }
+
+h1 {
+    clear: left;
+}
