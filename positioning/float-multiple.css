@@ -21,14 +21,14 @@ em {
 
 .blueBox {
     background: #627da0;
-    float: left;
+    float: right;
 }
 
 .greenBox {
     background: #5b8054;
-    float: left;
+    float: right;
 }
 
 h1 {
-    clear: left;
+    clear: right;
 }
